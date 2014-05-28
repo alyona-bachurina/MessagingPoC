@@ -1,0 +1,96 @@
+//
+//  Created by grizzly on 4/5/12.
+//
+
+
+#import <CommonCrypto/CommonDigest.h>
+#import "NSString+Utils.h"
+
+
+@implementation NSString (Utils)
+- (NSString *)SHAString {
+    const char *cstr = [self UTF8String];
+    unsigned char result[CC_SHA1_DIGEST_LENGTH];
+    CC_SHA1(cstr, strlen(cstr), result);
+
+    NSMutableString *ret=[NSMutableString stringWithCapacity:CC_SHA1_DIGEST_LENGTH];
+    for(int i=0; i<CC_SHA1_DIGEST_LENGTH;i++){
+        [ret appendFormat:@"%02X", result[i]];
+    }
+    return ret.lowercaseString;
+}
+
++(BOOL)compareString:(NSString *)left withOtherString:(NSString *)right{
+
+    BOOL result = NO;
+
+    if (left==nil){
+        if (right==nil){
+            result = YES;
+        }else{
+            result = NO;
+        }
+    }else{
+         if (right==nil){
+             result = NO;
+         }else{
+             result= [left isEqualToString:right];
+        }
+    }
+    return result;
+}
+
++(BOOL)compareStringBlankAsNil:(NSString *)left withOtherString:(NSString *)right{
+
+    NSString *lStr = left!=nil ?[NSString stringWithString:left]:nil;
+    NSString *rStr = right!=nil ?[NSString stringWithString:right]:nil;
+
+    if ([@"" isEqualToString:left]){
+        lStr = nil;
+    }
+    if ([@"" isEqualToString:right]){
+        rStr = nil;
+    }
+    const BOOL result = [NSString compareString:lStr withOtherString:rStr];
+    return result;
+}
+
++(BOOL)isBlankOrNil:(NSString *)string{
+    const BOOL result = string==nil || string.length==0;
+    return result;
+}
+
+-(BOOL) containsInteger
+{
+   NSScanner *sc = [NSScanner scannerWithString: self];
+   // We can pass NULL because we don't actually need the value to test
+   // for if the string is numeric. This is allowable.
+   if ( [sc scanInteger:NULL] )
+   {
+      // Ensure nothing left in scanner so that "42foo" is not accepted.
+      // ("42" would be consumed by scanFloat above leaving "foo".)
+      return [sc isAtEnd];
+   }
+   // Couldn't even scan a float :(
+   return NO;
+}
+
+
++ (CGSize)text:(NSString *)text sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size
+{
+    if (!SYSTEM_VERSION_LESS_THAN(@"7.0"))
+    {
+        CGRect frame = [text boundingRectWithSize:size
+                                          options:(NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading)
+                                       attributes:@{NSFontAttributeName:font}
+                                          context:nil];
+        return frame.size;
+    }
+    else
+    {
+        return [text sizeWithFont:font constrainedToSize:size];
+    }
+}
+
+
+@end

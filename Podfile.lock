@@ -1,0 +1,33 @@
+PODS:
+  - EasyMapping (0.6.0)
+  - JSMessagesViewController (3.4.4):
+    - JSQSystemSoundPlayer
+  - JSQSystemSoundPlayer (1.5.1)
+  - Parus (1.0)
+  - TestFlightSDK (3.0.2)
+  - Typhoon (2.0.6):
+    - Typhoon/no-arc
+  - Typhoon/no-arc (2.0.6)
+  - UIActionSheet+Blocks (0.8.1)
+  - UIAlertView+Blocks (0.8.1)
+
+DEPENDENCIES:
+  - EasyMapping
+  - JSMessagesViewController (~> 3.4.3)
+  - Parus
+  - TestFlightSDK
+  - Typhoon
+  - UIActionSheet+Blocks
+  - UIAlertView+Blocks
+
+SPEC CHECKSUMS:
+  EasyMapping: 80d3b31faed68496c2bdf557b3197d9d9f71463f
+  JSMessagesViewController: 7a3f3b5bb43044180e05625b32f164c73062bd61
+  JSQSystemSoundPlayer: a662f27f4ebac9f867116fc6c3926c19206c5e60
+  Parus: 4ed2c119d86103e160a3820d81564c08cf330eb0
+  TestFlightSDK: 0c24c533748d0d84bfe7a3cb6036fa79124d84ee
+  Typhoon: ac174480d38564968c2ee20700d971492579f2eb
+  UIActionSheet+Blocks: c8b9c02f3d08964e8f7a4202f004a639c15eab80
+  UIAlertView+Blocks: 0b749f1f7bd5131ff2233b30a406c1585a7171b2
+
+COCOAPODS: 0.32.1

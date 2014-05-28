@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>service.locator.UserService</key>
+	<string>UserServiceImpl</string>
+
+    <key>service.locator.ApplicationContextService</key>
+	<string>ApplicationContextServiceImpl</string>
+
+    <key>service.locator.BeaconService</key>
+	<string>BeaconServiceImpl</string>
+
+    <key>service.locator.OfflineBeaconService</key>
+	<string>OfflineBeaconServiceImpl</string>
+
+    <key>navigationbar.tint.color</key>
+    <integer>0xFF8800</integer>
+
+    <key>field.validation.warning.background</key>
+    <integer>0xFFCC99</integer>
+
+    <key>server.api.base.url</key>
+    <string>http://twelvesecondflight.com/tsf/</string>
+    <!--<string>http://192.168.144.178:8085/tsf/</string>-->
+
+    <key>server.api.register.or.login</key>
+    <string>Account/RegisterOrLogin</string>
+
+    <key>server.api.logout</key>
+    <string>Account/LogOff</string>
+
+    <key>server.api.search</key>
+    <string>api/search</string>
+
+    <key>server.api.beacon</key>
+    <string>api/beakon</string>
+
+    <key>server.api.image</key>
+    <string>api/image?imagehash=</string>
+
+    <key>server.api.mail.beacon</key>
+    <string>api/email</string>
+
+    <key>server.api.add.credits</key>
+    <string>api/credit</string>
+
+    <key>server.api.user</key>
+    <string>api/user</string>
+
+    <key>server.api.match</key>
+    <string>api/match</string>
+
+    <key>server.api.hints</key>
+    <string>api/hints</string>
+
+    <key>server.api.feedback</key>
+    <string>api/feedback</string>
+
+    <key>server.api.popular</key>
+    <string>api/popular</string>
+
+    <key>intents.titles</key>
+    <array>
+        <string>intent.have</string>
+        <string>intent.want</string>
+        <string>intent.like</string>
+        <string>intent.found</string>
+    </array>
+
+    <key>intents.values</key>
+    <dict>
+        <key>intent.have</key>
+        <string>have</string>
+
+        <key>intent.want</key>
+        <string>want</string>
+
+        <key>intent.like</key>
+        <string>like</string>
+
+        <key>intent.found</key>
+        <string>found</string>
+    </dict>
+
+    <key>interests.titles</key>
+    <array>
+        <string>interest.title.buying</string>
+        <string>interest.title.selling</string>
+        <string>interest.title.renting</string>
+        <string>interest.title.trading</string>
+        <string>interest.title.sharing</string>
+        <string>interest.title.giving</string>
+    </array>
+
+    <key>interests.values</key>
+    <dict>
+        <key>interest.title.buying</key>
+        <string>buying</string>
+
+        <key>interest.title.selling</key>
+        <string>selling</string>
+
+        <key>interest.title.renting</key>
+        <string>renting</string>
+
+        <key>interest.title.trading</key>
+        <string>trading</string>
+
+        <key>interest.title.sharing</key>
+        <string>sharing</string>
+
+        <key>interest.title.giving</key>
+        <string>giving</string>
+    </dict>
+
+    <key>thoughts.titles</key>
+    <array>
+        <string>thoughts.title.interesting</string>
+        <string>thoughts.title.cool</string>
+        <string>thoughts.title.amazing</string>
+        <string>thoughts.title.economical</string>
+        <string>thoughts.title.expensive</string>
+        <string>thoughts.title.rare.unique</string>
+    </array>
+
+    <key>thoughts.values</key>
+    <dict>
+        <key>thoughts.title.interesting</key>
+        <string>interesting</string>
+
+        <key>thoughts.title.cool</key>
+        <string>cool</string>
+
+        <key>thoughts.title.expensive</key>
+        <string>expensive</string>
+
+        <key>thoughts.title.economical</key>
+        <string>economical</string>
+
+        <key>thoughts.title.amazing</key>
+        <string>amazing</string>
+
+        <key>thoughts.title.rare.unique</key>
+        <string>rare_unique</string>
+    </dict>
+
+    <key>wants.titles</key>
+    <array>
+        <string>wants.title.meet</string>
+        <string>wants.title.learn.more</string>
+        <string>wants.title.share</string>
+        <string>wants.title.return</string>
+    </array>
+
+    <key>wants.values</key>
+    <dict>
+        <key>wants.title.learn.more</key>
+        <string>learn_more</string>
+
+        <key>wants.title.share</key>
+        <string>share</string>
+
+        <key>wants.title.return</key>
+        <string>return</string>
+
+        <key>wants.title.meet</key>
+        <string>meet</string>
+    </dict>
+
+    <key>default.range.value</key>
+    <integer>4800</integer>
+
+    <key>range.values</key>
+    <dict>
+        <key>range.value.30</key>
+        <integer>30</integer>
+        <key>range.value.50</key>
+        <integer>50</integer>
+        <key>range.value.400</key>
+        <integer>400</integer>
+        <key>range.value.800</key>
+        <integer>800</integer>
+        <key>range.value.1600</key>
+        <integer>1600</integer>
+        <key>range.value.3200</key>
+        <integer>3200</integer>
+        <key>range.value.4800</key>
+        <integer>4800</integer>
+        <key>range.value.8000</key>
+        <integer>8000</integer>
+        <key>range.value.16100</key>
+        <integer>16100</integer>
+        <key>range.value.24100</key>
+        <integer>24100</integer>
+        <key>range.value.32100</key>
+        <integer>32100</integer>
+    </dict>
+
+    <key>range.titles</key>
+    <array>
+        <string>range.value.30</string>
+        <string>range.value.50</string>
+        <string>range.value.400</string>
+        <string>range.value.800</string>
+        <string>range.value.1600</string>
+        <string>range.value.3200</string>
+        <string>range.value.4800</string>
+        <string>range.value.8000</string>
+        <string>range.value.16100</string>
+        <string>range.value.24100</string>
+        <string>range.value.32100</string>
+    </array>
+
+    <key>default.tracking.interval.value</key>
+    <integer>600</integer>
+
+    <key>default.alerts.frequence.value</key>
+    <integer>1800</integer>
+
+    <key>tracking.interval.values</key>
+    <dict>
+        <key>tracking.interval.value.60</key>
+        <integer>60</integer>
+        <key>tracking.interval.value.600</key>
+        <integer>600</integer>
+        <key>tracking.interval.value.900</key>
+        <integer>900</integer>
+        <key>tracking.interval.value.1800</key>
+        <integer>1800</integer>
+        <key>tracking.interval.value.3600</key>
+        <integer>3600</integer>
+        <key>tracking.interval.value.7200</key>
+        <integer>7200</integer>
+    </dict>
+
+    <key>tracking.interval.titles</key>
+    <array>
+        <string>tracking.interval.value.60</string>
+        <string>tracking.interval.value.600</string>
+        <string>tracking.interval.value.900</string>
+        <string>tracking.interval.value.1800</string>
+        <string>tracking.interval.value.3600</string>
+        <string>tracking.interval.value.7200</string>
+    </array>
+
+    <key>location.type.titles</key>
+    <array>
+        <string>location.type.fixed</string>
+        <string>location.type.follow</string>
+    </array>
+
+    <key>location.type.values</key>
+    <dict>
+        <key>location.type.fixed</key>
+        <integer>0</integer>
+
+        <key>location.type.follow</key>
+        <integer>1</integer>
+    </dict>
+
+    <key>dir.name.preview.cache</key>
+    <string>preview</string>
+
+    <key>beacon.name.max.length</key>
+    <integer>50</integer>
+
+    <key>beacon.description.max.length</key>
+    <integer>250</integer>
+
+    <key>map.default.zoom</key>
+    <integer>11</integer>
+
+    <key>gps.desired.occuracy</key>
+    <real>20</real>
+
+</dict>
+</plist>

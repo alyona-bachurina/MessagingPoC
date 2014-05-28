@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <key>navigationbar.tint.color</key>
+    <integer>0xFF8800</integer>
+
+    <key>field.validation.warning.background</key>
+    <integer>0xFFCC99</integer>
+
+    <key>color.online.green</key>
+    <integer>0x66CC66</integer>
+
+    <key>color.reject.red</key>
+    <integer>0xE60039</integer>
+
+    <key>color.neutral.blue</key>
+    <integer>0x007aff</integer>
+
+    <key>color.very.light.gray</key>
+    <integer>0xdedede</integer>
+
+    <key>messages.history.max.qty</key>
+    <integer>50</integer>
+
+    <key>calls.history.max.qty</key>
+    <integer>20</integer>
+
+    <key>splash.screen.timeout</key>
+    <real>0.5</real>
+
+    <key>qb.appdetails.applicationId</key>
+   	<integer>6170</integer>
+    <key>qb.appdetails.authorizationKey</key>
+   	<string>LuzbnUHGAzvk9jD</string>
+   	<key>qb.appdetails.authorizationSecret</key>
+   	<string>QNtrudbUHxjXeGM</string>
+    <key>qb.appdetails.account.key</key>
+   	<string>1g6s3niA67qyS1cUnhGr</string>
+
+</dict>
+</plist>

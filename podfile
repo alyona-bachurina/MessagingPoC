@@ -1,0 +1,8 @@
+platform :ios, '7.0'
+pod 'TestFlightSDK'
+pod 'Typhoon'
+pod 'Parus'
+pod 'EasyMapping'
+pod 'JSMessagesViewController', '~> 3.4.3'
+pod 'UIAlertView+Blocks'
+pod 'UIActionSheet+Blocks'

@@ -1,0 +1,50 @@
+/****************************************************************************/
+/* Localization file */
+
+
+"home.screen.title" = "Home";
+"login.screen.title" = "Sign In";
+"register.screen.title" = "Sign Up";
+
+"login.label.user.name" = "Username:";
+"login.label.password" = "Password:";
+"login.label.confirm.password" = "Confirm:";
+"login.label.email" = "Email:";
+
+"login.placeholder.user.name" = "Enter Username";
+"login.placeholder.password" = "Enter password";
+"login.placeholder.confirm.password" = "Retype password";
+"login.placeholder.email" = "Enter your email";
+
+"login.button.join.us" = "Join Us";
+
+"login.validation.blank.username" = "Username cannot be empty";
+"login.validation.blank.password" = "Password cannot be empty";
+"login.validation.password.confirmation.mismatch" = "\'Password\' and \'Confirm Password\' do not match";
+"login.validation.wrong.email" = "Email has an invalid format.\nValid pattern is name@example.com";
+
+ "chat.screen.title" = "Conversations";
+ "contacts.screen.title" = "Contacts";
+ "video.screen.title" = "Calls";
+
+"error.failed.to.setup.session"="Failed to establish connection with server.";
+"error.failed.to.login"="Failed to login to chat.";
+
+"contact.list.is.empty" = "Contact list is empty. Press + to add one";
+"search.contacts.screen.title" = "Add";
+"no.users.found" = "User not found";
+"settings.screen.title" = "Settings";
+"button.title.logout" = "Logout";
+"chose.contact" = "Chose contact";
+"button.title.back" = "Back";
+"button.stop.call" = "Stop";
+"contact.is.calling" = "%@ is calling to you";
+"calling.to.contact" = "Calling to %@...";
+"ok.button.title" = "OK";
+"message.user.is.not.answering" = "Subscriber is not answering. Try again later.";
+"message.user.has.rejected.call" = "Subscriber has rejected call";
+"message.user.has.stopped.call" = "Subscriber has stopped call";
+"message.trying.autologin" = "Connecting...";
+"you.are.logged.in.as" = "You are logged in as %@ (%@)";
+"application.description" = "Messaging Application prototype.\n\n© 2013 Waverley Software Inc.\nAll rights reserved.";
+"call.duration.subtitle" = "duration: ";
