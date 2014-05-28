@@ -1,0 +1,4 @@
+MessagingPoC
+============
+
+QuickBlox, Typhoon demo
